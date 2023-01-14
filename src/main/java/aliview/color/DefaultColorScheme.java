@@ -58,21 +58,21 @@ public class DefaultColorScheme implements ColorScheme {
 		baseBackgroundColor[NucleotideUtilities.C] = new Color(100,100,250);
 		baseBackgroundColor[NucleotideUtilities.G] = new Color(90,90,90); 
 		baseBackgroundColor[NucleotideUtilities.TU] = new Color(245,130,130); 
-		baseBackgroundColor[NucleotideUtilities.R] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.Y] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.M] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.K] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.W] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.S] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.B] = Color.white; 
-		baseBackgroundColor[NucleotideUtilities.D] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.H] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.V] = Color.white;
-		baseBackgroundColor[NucleotideUtilities.N] = Color.white; 
-		baseBackgroundColor[NucleotideUtilities.GAP] = new Color(250,250,250);
-		baseBackgroundColor[NucleotideUtilities.UNKNOWN] = Color.white;
+		baseBackgroundColor[NucleotideUtilities.R] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.Y] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.M] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.K] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.W] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.S] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.B] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.D] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.H] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.V] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.N] = Color.white.darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.GAP] = new Color(250,250,250).darker().darker().darker().darker();
+		baseBackgroundColor[NucleotideUtilities.UNKNOWN] = Color.white.darker().darker().darker().darker();
 
-		baseConsensusBackgroundColor =  new Color(240,240,240);
+		baseConsensusBackgroundColor =  new Color(240,240,240).darker().darker().darker().darker();
 
 		baseSelectionForegroundColor = new Color[64];
 		baseSelectionForegroundColor[NucleotideUtilities.A]       =createSelectionForegroundColor(baseForegroundColor[NucleotideUtilities.A] );
@@ -174,7 +174,7 @@ public class DefaultColorScheme implements ColorScheme {
 		aminoAcidBackgroundColor[AminoAcid.W.intVal] = new Color(0x0355a9);
 		aminoAcidBackgroundColor[AminoAcid.Y.intVal] = new Color(0x14c6c8);
 		aminoAcidBackgroundColor[AminoAcid.STOP.intVal] = Color.darkGray;
-		aminoAcidBackgroundColor[AminoAcid.GAP.intVal] = new Color(230,230,230);
+		aminoAcidBackgroundColor[AminoAcid.GAP.intVal] = new Color(230,230,230).darker().darker();
 		//aminoAcidBackgroundColor[AminoAcid.GAP.intVal] = Color.white;
 		aminoAcidBackgroundColor[AminoAcid.X.intVal] = Color.white;
 
